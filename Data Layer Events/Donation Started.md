@@ -6,11 +6,8 @@
 ```js
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-  "event": "begin_checkout",
-  "detailed_event": "Donation Started",
-    "ecommerce": {
-        "type": "<type>"
-    }
+  "event": "donation_click",
+  "detailed_event": "Donation Started"
 });
 ```
 
